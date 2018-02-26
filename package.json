@@ -1,15 +1,15 @@
 {
-  "name": "jquery-idleTimeout-plus",
-  "version": "0.9.5",
+  "name": "@garylocke/jquery-idletimeout-plus",
+  "version": "0.10.0",
   "description": "User idle detector with session keep-alive, warning dialog, lock screen, url redirection and support for multiple windows and tabs.",
   "main": "dist/jquery-idleTimeout-plus.js",
-  "homepage": "https://github.com/LinearSoft/jquery-idleTimeout-plus",
-  "bugs": "https://github.com/LinearSoft/jquery-idleTimeout-plus/issues",
-  "author": "Jason Abraham, <jason@linearsoft.com>",
+  "homepage": "https://github.com/garylocke/jquery-idleTimeout-plus",
+  "bugs": "https://github.com/garylocke/jquery-idleTimeout-plus/issues",
+  "author": "Gary Locke, <gary.locke.public@gmail.com>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/LinearSoft/jquery-idleTimeout-plus.git"
+    "url": "git://github.com/garylocke/jquery-idleTimeout-plus.git"
   },
   "keywords": [
     "timeout",

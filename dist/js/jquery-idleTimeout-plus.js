@@ -1,11 +1,7 @@
 /**
- * This work is licensed under the Creative Commons Attribution-Share Alike 3.0
- * United States License. To view a copy of this license,
- * visit http://creativecommons.org/licenses/by-sa/3.0/us/ or send a letter
- * to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
- *
- * Modified by: Jason Abraham (CrashSensei)
+ * Written by: Jason Abraham (CrashSensei)
  * Email: jason@linearsoft.com
+ * License: GPLv3 (https://www.gnu.org/licenses/gpl-3.0-standalone.html)
  *
  * Configurable idle (no activity) timer and logout redirect for jQuery.
  * Supports both jQueryUI dialogs or Bootstrap modals
@@ -19,7 +15,7 @@
  *      Multi-window support requires JQuery Storage API
  *      Dialogs require either jQueryUI or Bootstrap
  *
- * version 0.5.0
+ * version 0.10.0
  **/
 
 (function(root, factory) {
@@ -686,7 +682,7 @@
             '<h4>' + config.lockUsername + '</h4>' +
             '<p>' + config.lockMessage + '</p>' +
             '<div class="input-group">' +
-              '<input id="jitp-lock-pass" type="password" class="form-control" placeholder="Password..."/>' +
+              '<input id="jitp-lock-pass" type="password" class="form-control" placeholder="Password..." autocomplete="off"/>' +
               '<span class="input-group-btn">' +
                 '<button id="jitp-lock-unlock" class="btn btn-primary" type="button">' + config.lockUnlockButton +
                 '</button>' +
@@ -714,7 +710,7 @@
             '<h2>' + config.lockUsername + '</h2>' +
             '<p>' + config.lockMessage + '</p>' +
             '<div>' +
-              '<input id="jitp-lock-pass" type="text" class="form-control" placeholder="Password..."/>' +
+              '<input id="jitp-lock-pass" type="text" class="form-control" placeholder="Password..." autocomplete="off"/>' +
             '</div>' +
             '<button id="jitp-lock-unlock" type="button">' + config.lockUnlockButton + '</button>' +
             '<a id="jitp-lock-logout" href="javascript:;">' + logoutMsg + '</a>' +

@@ -14,11 +14,11 @@ User idle detector with session keep-alive, warning dialog, lock screen, url red
 ### Installation
 **NPM**
 
-`npm install jquery-idleTimeout-plus`
+`npm install @garylocke/jquery-idleTimeout-plus`
 
 **Bower**
 
-`bower install jquery-idleTimeout-plus`
+`bower install garylocke.jquery-idleTimeout-plus`
 
 Adding to your website
 ```
@@ -491,10 +491,10 @@ jQuery(document).ready(function() {
 ## About
 
 ### Bugs or feature requests
-Found a problem or would like a feature submit it via [GitHub](https://github.com/LinearSoft/jquery-idleTimeout-plus/issues)
+Found a problem or would like a feature submit it via [GitHub](https://github.com/garylocke/jquery-idleTimeout-plus/issues)
 ### License
 jquery-idleTimeout plus is licensed under the [GNU General Public License Version 3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)
 
 ### Acknowledgements
 
-Both [Jill Elaine's jquery-idleTimeout](https://github.com/josebalius/jquery-idleTimeout) and [Orangehill's bootstrap-session-timeout](https://github.com/orangehill/bootstrap-session-timeout) have been used as foundations for this jQuery module.
+Forked from [LinearSoft's jquery-idleTimeout-plus](https://github.com/LinearSoft/jquery-idleTimeout-plus) v0.9.5, which was based on [Jill Elaine's jquery-idleTimeout](https://github.com/josebalius/jquery-idleTimeout) and [Orangehill's bootstrap-session-timeout](https://github.com/orangehill/bootstrap-session-timeout).
