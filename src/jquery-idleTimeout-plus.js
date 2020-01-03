@@ -101,7 +101,7 @@
   };
   /* --strip_testing_end-- */
 
-  var bodyElm = $('body'); // Store for jQuery optimization
+  var bodyElm = null;
   var dataStore = null;
 
   //#########################################################################
@@ -116,6 +116,7 @@
    * @return {boolean} - Returns true if successfully initialized
    */
   api.start = function(userConfig) {
+    bodyElm = $('body');
     console.log('jitp: init called');
     //--Merge default and user configs
     config = $.extend(config, userConfig);
